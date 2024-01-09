@@ -1,7 +1,17 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 def blog(request):
     print('Blog')
-    return HttpResponse('Blog')
+    return render(
+        request,
+        'blog.html'
+    )
+
+
+def exemplo(request):
+    print('Blog')
+    return render(
+        request,
+        'exemplo.html'
+    )
