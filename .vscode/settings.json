@@ -52,4 +52,10 @@
     "editor.wordWrap": "wordWrapColumn",
     "python.analysis.autoImportCompletions": true,
     "editor.renderWhitespace": "all",
+    "emmet.includeLanguages": {
+      "django-html": "html"
+    },
+    "files.associations": {
+      "*.html": "django-html"
+  },
   }

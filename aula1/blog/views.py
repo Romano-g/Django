@@ -5,7 +5,7 @@ def blog(request):
     print('Blog')
     return render(
         request,
-        'blog.html'
+        'blog/index.html'
     )
 
 
@@ -13,5 +13,5 @@ def exemplo(request):
     print('Blog')
     return render(
         request,
-        'exemplo.html'
+        'blog/example.html'
     )
